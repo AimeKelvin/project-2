@@ -86,6 +86,34 @@ plt.show()
 | `linewidth` | `2`                             | Line thickness |
 | `alpha`     | `0.7`                           | Transparency   |
 
+### Common `marker` values in `matplotlib.pyplot.plot()`
+
+| Marker | Description | Notes |
+| :----: | :----------- | :---- |
+| `'o'` | Circle |  |
+| `'.'` | Point |  |
+| `','` | Pixel |  |
+| `'x'` | X |  |
+| `'+'` | Plus |  |
+| `'*'` | Star |  |
+| `'s'` | Square |  |
+| `'d'` | Diamond |  |
+| `'v'` | Triangle down |  |
+| `'^'` | Triangle up |  |
+| `'<'` | Triangle left |  |
+| `'>'` | Triangle right |  |
+| `'|'` | Vertical line |  |
+| `'_'` | Horizontal line |  |
+| `'None'`, `' '`, or `''` | No marker |  |
+
+> 💡 **Tip:**  
+> You can list all available markers programmatically with:
+> ```python
+> import matplotlib.pyplot as plt
+> print(plt.Line2D.markers)
+> ```
+
+
 ---
 
 ## 🧮 Subplots
